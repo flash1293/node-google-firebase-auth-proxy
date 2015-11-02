@@ -1,0 +1,18 @@
+{
+  "name": "oauth-firebase-proxy",
+  "version": "0.0.1",
+  "description": "Serves as an google oauth-proxy and tranfers the resulting payload to firebase as custom authentication",
+  "keywords": [
+    "firebase",
+    "oauth"
+  ],
+  "repository": "https://github.com/flash1293/node-oauth-firebase-proxy",
+  "author": "Johannes Reuter <jreuter@inovex.de>",
+  "dependencies": {
+    "firebase-token-generator": "^2.0.0"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.1"
+  }
+}
