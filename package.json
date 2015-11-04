@@ -9,7 +9,10 @@
   "repository": "https://github.com/flash1293/node-oauth-firebase-proxy",
   "author": "Johannes Reuter <jreuter@inovex.de>",
   "dependencies": {
-    "firebase-token-generator": "^2.0.0"
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "firebase-token-generator": "^2.0.0",
+    "request": "^2.65.0"
   },
   "main": "index",
   "engines": {
