@@ -14,3 +14,5 @@ Workflow:
 3. The auth-proxy validates the token against https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=accessToken to ensure ist validity. It is important to check the audience against the own clientid (https://developers.google.com/identity/protocols/OAuth2UserAgent) additional it checks the email-adress
 4. The auth-proxy creates a firebase-token using this method https://www.firebase.com/docs/web/guide/login/custom.html and sends it to the webapp
 5. the webapp validates itself against firebase with the jwt-token
+
+Alternative to 2. and 3.: https://developers.google.com/identity/sign-in/web/backend-auth
