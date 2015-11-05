@@ -1,7 +1,6 @@
 var express = require('express')
   , request = require('request')
   , cors = require('cors')
-  , config = require('./config')
   , FirebaseTokenGenerator = require("firebase-token-generator")
   , app = express();
 
