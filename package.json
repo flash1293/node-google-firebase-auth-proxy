@@ -6,7 +6,10 @@
     "firebase",
     "oauth"
   ],
-  "repository": "https://github.com/flash1293/node-oauth-firebase-proxy",
+  "repository": "https://github.com/flash1293/node-google-firebase-auth-proxy",
+  "homepage": "https://github.com/flash1293/node-google-firebase-auth-proxy",
+  "bugs": "https://github.com/flash1293/node-google-firebase-auth-proxy/issues",
+  "license": "MIT",
   "author": "Johannes Reuter <jreuter@inovex.de>",
   "dependencies": {
     "cors": "^2.7.1",
