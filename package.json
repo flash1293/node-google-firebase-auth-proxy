@@ -1,6 +1,6 @@
 {
   "name": "google-firebase-auth-proxy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Serves as an google oauth-proxy and tranfers the resulting payload to firebase as custom authentication",
   "keywords": [
     "firebase",

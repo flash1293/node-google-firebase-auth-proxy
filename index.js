@@ -30,6 +30,8 @@ module.exports = function(config) {
         } else {
           res.json({valid: false});
         }
+      } else {
+        res.json({valid: false});
       }
     });
   });
